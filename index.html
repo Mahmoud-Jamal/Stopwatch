@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="vh-100">
+        <section id="main" class="display-2 pt-5 w-50 mx-auto text-center">
+            <span id="minutes">00</span>:<span id="seconds">00</span>.<span id="tens">00</span>
+         </section>
+     
+         <section class="pt-5 w-50 mx-auto text-center">
+             <button class="btn btn-secondary px-4 rounded-pill me-3" id="play"><i class="fa-solid fa-play"></i></button>
+             <button class="btn btn-secondary px-4 rounded-pill me-3 d-none" id="pause"><i class="fa-solid fa-pause"></i></button>
+             <button class="btn btn-dark d-none" id="clear"><i class="fa-solid fa-rotate-right"></i></button>
+             <button class="btn btn-dark d-none" id="cam"><i class="fa-solid fa-camera"></i></button>
+         </section>
+         <section id="catch" class="w-25 mx-auto pe-3 rounded-3 mt-5 overflow-auto h-50">
+             
+         </section>
+
+    
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
